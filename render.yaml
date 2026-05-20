@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sh4ryuu-backend
+    runtime: go
+    rootDir: backend
+    buildCommand: go build -o server ./cmd/server/main.go
+    startCommand: ./server
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false

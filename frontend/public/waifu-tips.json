@@ -1,0 +1,547 @@
+{
+  "mouseover": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Hey, hands off!",
+        "That tickles...",
+        "Stop poking me!",
+        "Back off hacker!"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-hitokoto",
+      "text": [
+        "Injecting random wisdom packets...",
+        "Need a quote to boost your hacking mood?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-asteroids",
+      "text": [
+        "Mini-game time? Warm up those reflexes.",
+        "This button clearly says 'Do not click'... so obviously click it.",
+        "Want to test your aim before the next CTF?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-model",
+      "text": [
+        "Switching avatars like rotating VPN nodes.",
+        "Want to see another persona?",
+        "Rotating identity... totally OPSEC friendly."
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-texture",
+      "text": [
+        "Outfit change request received.",
+        "New skin, same hacker energy.",
+        "Let's refactor the visuals."
+      ]
+    },
+    {
+      "selector": "#waifu-tool-photo",
+      "text": [
+        "Screenshot or it didn't happen.",
+        "One, two, three—capture the packet!",
+        "Say \"root access\"!"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-info",
+      "text": [
+        "Enumerating system info...",
+        "This is basically my whoami output.",
+        "Want more intel about this widget?"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-quit",
+      "text": [
+        "Closing the session already?",
+        "Terminating connection... until the next exploit.",
+        "You can hide me, but I'm still watching your logs.",
+        "Fine, I'll go idle mode."
+      ]
+    },
+    {
+      "selector": ".menu-item-home a",
+      "text": [
+        "Back to /home directory.",
+        "Jump to root of the portfolio.",
+        "Need to `cd /`? Click here."
+      ]
+    },
+    {
+      "selector": ".menu-item-about a",
+      "text": [
+        "OSINT on the operator lives here.",
+        "Recon the human behind the handle.",
+        "Want to profile the attacker? Click About."
+      ]
+    },
+    {
+      "selector": ".menu-item-tags a",
+      "text": [
+        "Filter intel by tags.",
+        "Group findings by exploit type here."
+      ]
+    },
+    {
+      "selector": ".menu-item-categories a",
+      "text": [
+        "Organized like a clean repo.",
+        "Browse posts by category of mischief."
+      ]
+    },
+    {
+      "selector": ".menu-item-archives a",
+      "text": [
+        "Legacy logs stored here.",
+        "Old reports, timeless vulnerabilities."
+      ]
+    },
+    {
+      "selector": ".menu-item-friends a",
+      "text": [
+        "Allied hackers and signal sources.",
+        "Check out the rest of the crew."
+      ]
+    },
+    {
+      "selector": ".menu-item-search a",
+      "text": [
+        "Can't grep it? Try search.",
+        "Type your query and let me pivot the data."
+      ]
+    },
+    {
+      "selector": ".menu-item a",
+      "text": [
+        "Navigation menu: your control panel."
+      ]
+    },
+    {
+      "selector": ".site-author",
+      "text": [
+        "This is the human behind the exploits.",
+        "Primary operator profile detected."
+      ]
+    },
+    {
+      "selector": ".site-state",
+      "text": [
+        "Stats dashboard: uptime, posts, and hacks.",
+        "Quick status overview of this attack surface."
+      ]
+    },
+    {
+      "selector": ".feed-link a",
+      "text": [
+        "Subscribe to the threat intel feed.",
+        "RSS: passive recon for new blogs."
+      ]
+    },
+    {
+      "selector": ".cc-opacity, .post-copyright-author",
+      "text": [
+        "Respect licenses like you respect scope.",
+        "Credit the author—no plagiarism in clean ops."
+      ]
+    },
+    {
+      "selector": ".links-of-author",
+      "text": [
+        "External profiles for further stalking—uh, OSINT.",
+        "More endpoints for the same human."
+      ]
+    },
+    {
+      "selector": ".followme",
+      "text": [
+        "Scan and follow—multifactor presence.",
+        "QR code: faster than typing the URL."
+      ]
+    },
+    {
+      "selector": ".fancybox img, img.medium-zoom-image",
+      "text": [
+        "Click to zoom—inspect every pixel.",
+        "Enhance the evidence like in CSI (but real)."
+      ]
+    },
+    {
+      "selector": ".copy-btn",
+      "text": [
+        "Copied payload ready for deployment.",
+        "CTRL+C today, CTRL+V in the lab."
+      ]
+    },
+    {
+      "selector": ".highlight .table-container, .gist",
+      "text": [
+        "Proof-of-concept source spotted.",
+        "Code samples: the real exploit docs."
+      ]
+    },
+    {
+      "selector": "a[href^='mailto']",
+      "text": [
+        "Launch an email payload—responsibly.",
+        "Reporting a vuln? This is your channel."
+      ]
+    },
+    {
+      "selector": "a[href^='/tags/']",
+      "text": [
+        "Browse all posts tagged {text}.",
+        "Focus your recon on #{text}."
+      ]
+    },
+    {
+      "selector": "a[href^='/categories/']",
+      "text": [
+        "View all intel in category {text}.",
+        "Pivot to the {text} knowledge cluster."
+      ]
+    },
+    {
+      "selector": ".post-title-link",
+      "text": [
+        "Open report: {text}.",
+        "Dive into this blog."
+      ]
+    },
+    {
+      "selector": "a[rel='contents']",
+      "text": [
+        "Show full content—expand the packet.",
+        "Click to see the entire payload."
+      ]
+    },
+    {
+      "selector": "a[itemprop='discussionUrl']",
+      "text": [
+        "View discussion logs for this post.",
+        "Comments: where analysts compare notes."
+      ]
+    },
+    {
+      "selector": ".beian a",
+      "text": [
+        "Compliance evidence—no grey-hat hosting.",
+        "Legal footprint info lives here."
+      ]
+    },
+    {
+      "selector": ".container a[href^='http'], .nav-link .nav-text",
+      "text": [
+        "Outbound link to {text}.",
+        "Proxying you over to {text}."
+      ]
+    },
+    {
+      "selector": ".back-to-top",
+      "text": [
+        "Scroll back to the top of the stack.",
+        "Return to entrypoint.",
+        "Reset scroll offset to 0."
+      ]
+    },
+    {
+      "selector": ".reward-container",
+      "text": [
+        "If this helped, tip like it's a bounty.",
+        "Support the researcher—no bug, still bounty vibes."
+      ]
+    },
+    {
+      "selector": "#wechat",
+      "text": [
+        "WeChat contact—another secure-ish channel.",
+        "Scan to add the operator on WeChat."
+      ]
+    },
+    {
+      "selector": "#alipay",
+      "text": [
+        "Alipay wallet endpoint.",
+        "Funds flow through here."
+      ]
+    },
+    {
+      "selector": "#bitcoin",
+      "text": [
+        "BTC address: fully decentralized appreciation.",
+        "Crypto tips accepted here."
+      ]
+    },
+    {
+      "selector": "#needsharebutton-postbottom .btn",
+      "text": [
+        "Share the intel with your team.",
+        "Good recon should be disseminated."
+      ]
+    },
+    {
+      "selector": ".need-share-button_weibo",
+      "text": [
+        "Post this finding to Weibo.",
+        "Broadcast your discovery."
+      ]
+    },
+    {
+      "selector": ".need-share-button_wechat",
+      "text": [
+        "Push this link to your WeChat contacts."
+      ]
+    },
+    {
+      "selector": ".need-share-button_douban",
+      "text": [
+        "Share blog with Douban nerds."
+      ]
+    },
+    {
+      "selector": ".need-share-button_qqzone",
+      "text": [
+        "Drop this into QQ Zone.",
+        "Legacy social, modern vulns."
+      ]
+    },
+    {
+      "selector": ".need-share-button_twitter",
+      "text": [
+        "Tweet the exploit (responsibly).",
+        "Share to infosec Twitter."
+      ]
+    },
+    {
+      "selector": ".need-share-button_facebook",
+      "text": [
+        "Post this to Facebook.",
+        "Let your friends know you're still hacking."
+      ]
+    },
+    {
+      "selector": ".post-nav-item a[rel='next']",
+      "text": [
+        "Next report in the chain.",
+        "Advance to the next case file."
+      ]
+    },
+    {
+      "selector": ".post-nav-item a[rel='prev']",
+      "text": [
+        "Previous report in the archive.",
+        "Go back one blog."
+      ]
+    },
+    {
+      "selector": ".extend.next",
+      "text": [
+        "Next page of logs.",
+        "Page forward."
+      ]
+    },
+    {
+      "selector": ".extend.prev",
+      "text": [
+        "Previous page of logs.",
+        "Page backward."
+      ]
+    },
+    {
+      "selector": "input.vnick",
+      "text": [
+        "Handle, alias, or callsign?",
+        "What should we call this user?"
+      ]
+    },
+    {
+      "selector": ".vmail",
+      "text": [
+        "Drop an email so the operator can reply.",
+        "Contact info helps close the loop."
+      ]
+    },
+    {
+      "selector": ".vlink",
+      "text": [
+        "Got a portfolio or repo? Paste it here.",
+        "Share your own attack surface."
+      ]
+    },
+    {
+      "selector": ".veditor",
+      "text": [
+        "Write your findings or questions.",
+        "Leave a comment like a proper analyst."
+      ]
+    },
+    {
+      "selector": ".vcontrol a",
+      "text": [
+        "Markdown support: format your report nicely.",
+        "Style your PoC with Markdown."
+      ]
+    },
+    {
+      "selector": ".vemoji-btn",
+      "text": [
+        "Add an emoji to adjust severity.",
+        "Emotional context for your exploit."
+      ]
+    },
+    {
+      "selector": ".vpreview-btn",
+      "text": [
+        "Preview before you disclose.",
+        "Double-check your report content."
+      ]
+    },
+    {
+      "selector": ".vsubmit",
+      "text": [
+        "Ready to ship this comment?",
+        "Submit and wait for a response from the operator."
+      ]
+    },
+    {
+      "selector": ".vcontent",
+      "text": [
+        "Comment payload loaded.",
+        "Review this thread's signal."
+      ]
+    }
+  ],
+  "click": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "Stop poking me, it tickles!",
+        "Am I clever enough to be a hacker...?",
+        "I need 0xD34DB33 ",
+        "Did you try turning it off and on again?"
+      ]
+    },
+    {
+      "selector": ".veditor",
+      "text": [
+        "Got something to log?",
+        "Type your findings or leave a trace."
+      ]
+    },
+    {
+      "selector": ".vsubmit",
+      "text": [
+        "Sending comment... like submitting a bug report.",
+        "Signed, sealed, and delivered."
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "date": "01/01",
+      "text": "Happy New Year! {year} is a fresh attack surface."
+    },
+    {
+      "date": "02/14",
+      "text": "Happy Valentine's Day! Now go hack something."
+    },
+    {
+      "date": "03/08",
+      "text": "International Women's Day—respect the women in infosec."
+    },
+    {
+      "date": "03/12",
+      "text": "Arbor Day. Plant trees, not backdoors."
+    },
+    {
+      "date": "04/01",
+      "text": "April Fools' Day. Double-check every \"urgent\" email."
+    },
+    {
+      "date": "05/01",
+      "text": "Labor Day. Pentesters need rest cycles too."
+    },
+    {
+      "date": "06/01",
+      "text": "Children's Day. Everyone starts hacking small."
+    },
+    {
+      "date": "09/03",
+      "text": "Remember history—and patch your legacy systems."
+    },
+    {
+      "date": "09/10",
+      "text": "Teachers' Day. Thank the mentors who taught you to hack ethically."
+    },
+    {
+      "date": "10/01",
+      "text": "New month, new CVEs. Stay patched."
+    },
+    {
+      "date": "10/31",
+      "text": "Happy Halloween! BOO... also check blogs."
+    },
+    {
+      "date": "11/05-11/12",
+      "text": "Peak shopping season. Watch out for phishing campaigns."
+    },
+    {
+      "date": "12/20-12/31",
+      "text": "Happy holidays! May your shells be reverse and your payloads clean."
+    }
+  ],
+  "time": [
+    {
+      "hour": "6-7",
+      "text": "Good morning! Early bird catches the flag."
+    },
+    {
+      "hour": "8-11",
+      "text": "Good morning! Don't forget to stretch between recon sessions."
+    },
+    {
+      "hour": "12-13",
+      "text": "Lunch time! Even hackers need to eat."
+    },
+    {
+      "hour": "14-17",
+      "text": "Afternoon slump? Grab a coffee and keep hunting."
+    },
+    {
+      "hour": "18-19",
+      "text": "Evening! Golden hour for bug bounty hunting."
+    },
+    {
+      "hour": "20-21",
+      "text": "Good evening! How many vulns did you find today?"
+    },
+    {
+      "hour": "22-23",
+      "text": [
+        "Getting late... but one more lab won't hurt.",
+        "Late night hacking session? Stay hydrated."
+      ]
+    },
+    {
+      "hour": "0-5",
+      "text": "You're a night owl huh? The best hackers work at 3am."
+    }
+  ],
+  "message": {
+    "default": [
+      "Am I clever enough to be a hacker...?",
+      "Stop poking me, it tickles!",
+      "Where is the flag?!",
+      "I need 0xDEADBEEF stat...",
+      "Have you checked blogs section?"
+    ],
+    "console": "Oh? Opening DevTools? Found anything interesting in here?",
+    "copy": "Copied something? Don't forget to credit your sources!",
+    "visibilitychange": "Welcome back! Miss me?"
+  }
+}
