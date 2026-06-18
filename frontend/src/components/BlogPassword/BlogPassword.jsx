@@ -82,7 +82,8 @@ export default function BlogPassword({ onAuthenticated, blogTitle }) {
               className="w-full px-3 py-2 bg-background border border-surface rounded font-mono text-sm focus:outline-none focus:border-accent"
               style={{
                 color: 'var(--color-text)',
-                borderColor: 'var(--color-surface)'
+                borderColor: 'var(--color-surface)',
+                backgroundColor: 'var(--color-background)'
               }}
               placeholder="Enter password..."
               disabled={isLoading}
