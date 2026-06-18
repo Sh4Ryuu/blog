@@ -39,9 +39,11 @@ func main() {
 	api := r.Group("/api")
 	{
 		api.GET("/blogs", handlers.ListBlogs(blogRepo))
-		api.GET("/blogs/:slug", handlers.GetBlog(blogRepo))
-		api.GET("/blogs/category/:category", handlers.GetBlogsByCategory(blogRepo))
 		api.POST("/blogs/check-password", handlers.CheckPassword(blogRepo))
+		api.GET("/blogs/category/:category", handlers.GetBlogsByCategory(blogRepo))
+		api.GET("/blogs/:slug", handlers.GetBlog(blogRepo))
+		
+		
 	}
 
 	port := os.Getenv("PORT")
